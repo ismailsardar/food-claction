@@ -20,3 +20,16 @@
     src: url(../fonts/Raleway-Black.ttf);
 }
 /* ------font add here-------- */
+
+/* -------color start-------- */
+:root{
+    --primary: #EEBF00;
+    --secondary: #232b38;
+    --ternary: #6C6C6C;
+    --danger: #fe4545;
+    --pure: #fefefe;
+    --light: #f0f0f0;
+    --heaven: #ffffff;
+    --footer: #2d333f;
+}
+/* -------color start-------- */
