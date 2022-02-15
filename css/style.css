@@ -98,4 +98,32 @@ body{
 .contanier-author__divider{
     margin: 0 15px;
 }
+.contanier--call img{
+    margin-right: 10px;
+}
+.contanier--time img{
+    margin-right: 10px;
+}
+.contanier--call> div h5{
+    font-family: 'Raleway-Black';
+    margin-bottom: 0.25rem;
+    font-size: 14px;
+}
+.contanier--call> div p{
+    font-family: 'Raleway-Medium';
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.contanier--time> div h5{
+    font-family: 'Raleway-Black';
+    margin-bottom: 0.25rem;
+    font-size: 14px;
+}
+.contanier--time> div p{
+    font-family: 'Raleway-Medium';
+    font-size: 13px;
+}
+.top--style{
+    padding: 1.5rem 0;
+}
 /* ----header style end----- */
