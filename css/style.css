@@ -25,6 +25,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    -webkit-font-smoothing:antialised;
+}
 
 /* -------color start-------- */
 :root{
