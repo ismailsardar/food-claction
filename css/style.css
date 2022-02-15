@@ -79,4 +79,9 @@ body{
     color: var(--pure);
     text-decoration: none;
 }
+.contanier--style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /* ----header style end----- */
