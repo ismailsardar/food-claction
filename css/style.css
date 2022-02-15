@@ -27,6 +27,7 @@
 }
 body{
     -webkit-font-smoothing:antialiased;
+    background: var(--body);
 }
 
 /* -------color start-------- */
@@ -39,6 +40,8 @@ body{
     --light: #f0f0f0;
     --heaven: #ffffff;
     --footer: #2d333f;
+    --hover: #56565646;
+    --body:#f1f1f1;
 }
 /* -------color start-------- */
 
@@ -126,4 +129,46 @@ body{
 .top--style{
     padding: 1.5rem 0;
 }
+/* ------top nav bar end----- */
+
+/* -------menu bar start-------- */
+.nav__menu{   
+    justify-content: center;
+}
+.nav__menu a{   
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 1rem;
+    font-family: 'Raleway-SemiBold';
+    padding: .5rem .8rem;
+    transition: all .3s ease;
+    border-radius: 3px;
+}
+.nav__menu a:hover{   
+    background: var(--primary); 
+    color: var(--heaven);
+}
+.nav__menu a:active{   
+  background: var(--primary); 
+  color: var(--heaven);
+}
+.magic-shado{
+    position: relative;
+    background: var(--light);
+    border: 0;
+}
+.magic-shado::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 69px;
+    position: absolute;
+    background-image: url(../icons/shadow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: -20px;
+    z-index: -1;
+    
+}
+/* -------menu bar end-------- */
 /* ----header style end----- */
