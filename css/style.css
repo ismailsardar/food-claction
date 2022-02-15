@@ -33,3 +33,33 @@
     --footer: #2d333f;
 }
 /* -------color start-------- */
+
+/* ----header style start----- */
+.contanier{
+    width: 100%;
+    padding: o 15px;
+    margin: 0 auto;
+}
+/* -----contaner responsive----- */
+@media (min-width:576px) {
+    .contanier{
+        max-width: 540px;
+    }
+}
+@media (min-width:760px) {
+    .contanier{
+        max-width: 720px;
+    }
+}
+@media (min-width:992px) {
+    .contanier{
+        max-width: 960px;
+    }
+}
+@media (min-width:1200px) {
+    .contanier{
+        max-width: 1152px;
+    }
+}
+/* -----contaner responsive----- */
+/* ----header style end----- */
