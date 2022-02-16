@@ -144,6 +144,10 @@ body{
     transition: all .3s ease;
     border-radius: 3px;
 }
+.nav__menu .active{
+    background: var(--primary); 
+    color: var(--heaven);
+}
 .nav__menu a:hover{   
     background: var(--primary); 
     color: var(--heaven);
@@ -171,12 +175,17 @@ body{
     margin-bottom: 5px;
 }
 /* -------menu bar end-------- */
+.clear{
+    content: '';
+    display: table;
+    clear: both;
+}
 /* -------hero-------- */
 .hreo{
-    height: 600px;
+    
     background-image: url(../images/hero4.png);
     background-position: 0% 0%;
-    background-size: 100% 80%;
+    background-size: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
     padding-top: 10px;
@@ -239,8 +248,169 @@ body{
     width: 300px;
 }
 .contanier--style.contanier-hero{
-    margin-top: 6rem;
+    padding-top: 8rem;
+    padding-bottom: 9rem;
     
 }
 /* -------hero-------- */
 /* ----header style end----- */
+
+/* -------prodact section-------- */
+section{
+    padding: 4rem 0;
+}
+section.top-products{
+    background: var(--light);
+}
+.contanier__heading{
+    font-family: 'Raleway-Bold';
+    position: relative;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.contanier__heading:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    background-image: url(../icons/hr.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: -30px;
+}
+
+/* -------card-------- */
+section.top-products .container-slaider_food .food-card{
+    background: var(--heaven);
+    padding: 1.5rem 0;
+    border-radius: 5px;
+}
+section.top-products .container-slaider_food .food-card .food-card_img img{
+    width: 60%;
+    height: 150px;
+    object-fit: contain;
+    padding-bottom: .5rem;
+}
+.food-card_style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    border: 1px solid var(--light);
+    opacity: 0.8;
+    margin: 1rem 0;
+}
+.text-center{
+    text-align: center;
+}
+.stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stars img{
+    margin-right: 5px;
+}
+section.top-products .container-slaider_food .food-card .price{
+    font-family: 'Raleway-Medium';
+    color: var(--danger);
+    margin: 10px 0;
+}
+section.top-products .container-slaider_food .food-card button{
+    font-family: 'Raleway-Medium';
+    color: var(--secondary);
+    background: var(--heaven);
+    border: 2px solid var(--primary);
+    display: flex;
+    align-items: center;
+    width: 70%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all .3s ease;
+    outline: 0;
+}
+section.top-products .container-slaider_food .food-card button:hover{
+    color: var(--pure);
+    background: var(--primary);
+}
+.container-slaider_food .food-card button img{
+    height: 32px;
+    padding: .55rem;
+    margin-right: 1rem;
+    background: var(--primary);
+}
+.card_btn{
+    display: flex;
+    justify-content: center;
+}
+ 
+.top-products .slider-btn{
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: var(--primary);
+    cursor: pointer;
+}
+.slick-slide{
+    margin: 0 15px;
+}
+.slick-list{
+    margin: 0 -15px;
+}
+.top-products .container-slaider{
+    position: relative;
+}
+.top-products .prev-btn{
+    position: absolute;
+    top: 46%;
+    left: -2.8rem;
+    z-index: 1;
+}
+.top-products .next-btn{
+    position: absolute;
+    top: 46%;
+    right: -2.8rem;
+    z-index: 1;
+}
+.top-products .viev-btn{
+    background: var(--footer);
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    color: var(--light);
+    border-radius: 5px;
+}
+.top-products .viev-btn:hover{
+    background: var(--light);
+    color: var(--secondary);
+    border: 1px solid;
+}
+.magic-shado_sm{
+    position: relative;
+    background: var(--pure);
+    border: 0;
+}
+.magic-shado_sm::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    background-image: url(../icons/shadow-sm.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: -25px;
+    z-index: -1;
+    margin-bottom: 5px;
+}
+.slick-track{
+    padding: 1rem 0;
+}
+/* -------card-------- */
+
+
+/* -------prodact section-------- */
