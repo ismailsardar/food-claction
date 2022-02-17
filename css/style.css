@@ -517,3 +517,44 @@ section.our-services .card_wrapper{
 }
 /* -----btn------- */
 /* ------servise------ */
+
+/* ------big-deal------- */
+section.big-deal{
+    background-image: linear-gradient(rgba(35,43,56,0.8),rgba(-35,-43,-56,0.9)),url(../images/food-table.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text-pure{
+    color: var(--pure);
+}
+section.big-deal .cointener_timer{
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+    margin-right: -2rem;
+}
+section.big-deal .cointener_timer> div{
+    margin-right: 2rem;
+    height: 100px;
+    width: 110px;
+    border-radius: 5px;
+    background: var(--primary);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--heaven);
+}
+section.big-deal .cointener_timer> div p:first-child{
+    font-family: 'Raleway-SemiBold';
+    font-size: 2.2rem;
+    margin-bottom: 2px;
+}
+section.big-deal .cointener_timer> div p:last-child{
+    font-family: 'Raleway-Medium';
+    font-size: 1rem;
+}
+/* ------big-deal------- */
