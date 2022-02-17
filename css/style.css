@@ -781,4 +781,7 @@ footer .box-wraper .box ul li a img{
     border: 1px solid var(--primary);
     width: 100%;
 }
+footer .box:nth-child(3) ul li{
+    margin-bottom: 2rem;
+}
 /* -------footer-------- */
