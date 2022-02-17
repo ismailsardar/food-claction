@@ -676,3 +676,34 @@ section.subscribe .subscribe-wrape .input-wrap button:hover{
    color: var(--light);
 }
 /* --------subscribe-------- */
+
+/* --------countact-------- */
+section.contact-us{
+    padding: .5rem 0;
+}
+section.contact-us .contact_wrape{
+    display: flex;
+    justify-content: space-between;
+    
+}
+section.contact-us .contact_wrape .contact_info{
+    padding: 4rem 0;
+    
+    
+}
+section.contact-us .contact_info .contact_meta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+section.contact-us .contact_info .contact_meta> div p{
+    margin-left: 10px;
+    font-family: 'Raleway-Medium';
+    font-weight: 500;
+    font-size: .9rem;
+}
+section.contact-us .contact_info .contact_meta> div p:first-child{
+    font-family: 'Raleway-Bold';
+}
+/* --------countact-------- */
