@@ -66,6 +66,9 @@ body{
     .contanier{
         max-width: 900px;
     }
+    .contanier-2{
+        max-width: 800px;
+    }
 }
 @media (min-width:1200px) {
     .contanier{
@@ -558,3 +561,61 @@ section.big-deal .cointener_timer> div p:last-child{
     font-size: 1rem;
 }
 /* ------big-deal------- */
+
+/* ------latest News-------- */
+section.latest-news{
+    background: var(--light);
+    position: relative;
+    z-index: 0;
+}
+section.latest-news .artical-card> div img{
+    width: 100%;
+}
+section.latest-news .artical-card{
+    margin-right: 3rem;
+    background: var(--heaven);
+    border-radius: 5px; 
+    
+}
+section.latest-news .artical-card .article-text{
+     padding: 1rem;
+}
+section.latest-news .artical-card .post-meta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+section.latest-news .artical-card .post-meta p{
+    
+    font-size: 10px;
+    
+}
+section.latest-news .artical_wraper{
+    display: flex;
+    margin-right: -3rem;
+}
+section.latest-news .artical-card .article-text h2{
+    font-family: 'Raleway-Bold';
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+section.latest-news .artical-card .article-text p{
+    font-family: 'Raleway-SemiBold';
+    font-size: .9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: var(--footer);
+}
+.contanier-2{
+    margin: 0 auto;
+}
+.btn-black{
+    color: var(--footer);
+}
+.btn-mar{
+    margin-top: 1rem;
+}
+/* ------latest News-------- */
