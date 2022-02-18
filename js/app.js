@@ -6,5 +6,10 @@ $(document).ready(function(){
         prevArrow:".prev-btn",
         nextArrow:".next-btn",
     });
+
+    $('.nav-tegair').click(function(){
+        $('.sit-content_wraper').toggleClass('scaled');
+    });
+
   });
 
