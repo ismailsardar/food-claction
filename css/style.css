@@ -164,26 +164,22 @@ body{
     }
     .site-content .hreo{
         margin-top: -4rem;
-    }
-    .site-content .hero .contanier .hero-right img{
-        display: none;
-
-    }
-
-
-
-
-
-
-    .hero .contanier--style{
+    }    
+    .site-content .hero .contanier--style{
         flex-direction: column;
-        
+    }
+    .contanier{
+        max-width: 100%;
+    }
+    .hero .contanier--style{
+        flex-direction: column;     
     }
     .top-products .slider-btn{
         display: none!important;
     }
     section.latest-news .artical_wraper{
         flex-direction: column;
+        
     }
     .contanier-2{
         max-width: 500px;
@@ -221,6 +217,29 @@ body{
     }
     footer .box{
         margin-bottom: 3rem;
+    }
+    .contanier--style {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    .site-content .contanier--style h1{
+        
+        font-size: 1.7rem;
+        
+    }
+    .site-content .hero-right img {
+        width: 250px;
+        margin-top: 1rem;
+        
+    }
+    .hero-left p {
+        font-size: 13px;
+    }
+    .site-content section.big-deal .cointener_timer> div{
+        margin-right: .8rem;
     }
 }
 
